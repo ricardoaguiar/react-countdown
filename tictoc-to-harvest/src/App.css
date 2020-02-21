@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tictoc {
+  display: flex;
+  height: 360px;
+  width: 300px;
+  background-color: #ebecf0;
+  border-radius: 0.4rem;
+  border: #3b4349 solid 1px;
+}
+
+.countdown {
+  align-self: center;
+  align-items: center;
+  display: block;
+  width: 250px;
+  height: 250px;
+  background-color: #f5f6f8;
+  border-radius: 50%;
+  color: #3b4349;
+  margin-left: auto;
+  margin-right: auto;
+}
+.days-left {
+  font-size: 4rem;
+  margin-bottom: 0.1rem;
+}
+.time-left {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.clock {
+  font-size: 0.9rem;
+}
+h5 {
+  letter-spacing: 0.125rem;
+}
